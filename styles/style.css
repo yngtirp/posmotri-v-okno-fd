@@ -146,10 +146,6 @@ ol {
   outline-offset: 2px;
 }
 
-.search-form__label{ 
-  display: inline;
-}
-
 .search-form__checkbox-list {
   width: 212px;
   height: 22px;
@@ -209,7 +205,7 @@ ol {
   text-decoration: none;
 }
 
-.content__video-card-description-container{ 
+.content__video-card-description-container { 
   flex-grow: 1;
 }
 
@@ -223,7 +219,7 @@ ol {
   color: #fff;
 }
 
-.content__video-card-description{ 
+.content__video-card-description { 
   color: #fff;
   font-family: Fira Sans Condensed;
   font-weight: 400;

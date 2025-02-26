@@ -151,10 +151,6 @@ ol {
   text-decoration: underline;
 }
 
-.search-form__label:has(.search-form__label-text) .search-form__label:hover {
-  text-decoration: none;
-}
-
 .search-form__checkbox-list {
   width: 212px;
   height: 22px;

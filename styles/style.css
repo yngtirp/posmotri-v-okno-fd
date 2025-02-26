@@ -146,9 +146,13 @@ ol {
   outline-offset: 2px;
 }
 
-.search-form__label:hover {
+.search-form__label:not(:has(.search-form__textfield)):hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+.search-form__label:has(.search-form__label-text) .search-form__label:hover {
+  text-decoration: none;
 }
 
 .search-form__checkbox-list {
